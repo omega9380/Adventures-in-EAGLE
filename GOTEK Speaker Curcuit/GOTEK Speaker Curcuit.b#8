@@ -83,7 +83,7 @@
 <text x="17.78" y="5.08" size="1.016" layer="21" align="center-left"> SPK+</text>
 <text x="17.78" y="2.54" size="1.016" layer="21" align="center-left"> SPK-</text>
 <text x="17.78" y="13.97" size="1.016" layer="21" rot="R90" align="center">GOTEK SPEAKER
-CIRCUIT</text>
+CURCUIT</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
@@ -1295,18 +1295,24 @@ type 0204, grid 7.5 mm</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="oshpark-2layer">
-<description language="en">&lt;b&gt;OSH Park Design Rules&lt;/b&gt;
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-Please make sure your boards conform to these design rules.
-&lt;/p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-Note, that not all DRC settings must be set by the manufacturer. Several can be adjusted for the design, including those listed on our docs page here. 
-&lt;a href=&quot;http://docs.oshpark.com/design-tools/eagle/design-rules-files/&quot;&gt;Adjustable Settings&lt;/a&gt;
-&lt;/p&gt;</description>
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035559375mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.035559375mm"/>
-<param name="mtIsolate" value="1.6mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
 <param name="mdWireWire" value="6mil"/>
 <param name="mdWirePad" value="6mil"/>
 <param name="mdWireVia" value="6mil"/>
@@ -1316,14 +1322,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="mdSmdPad" value="6mil"/>
 <param name="mdSmdVia" value="6mil"/>
 <param name="mdSmdSmd" value="6mil"/>
-<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="15mil"/>
+<param name="mdCopperDimension" value="40mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
-<param name="msDrill" value="10mil"/>
-<param name="msMicroVia" value="10mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -1332,19 +1338,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="5mil"/>
+<param name="rlMinPadTop" value="10mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="5mil"/>
+<param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="5mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="5mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="5mil"/>
+<param name="rlMinViaInner" value="8mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="5mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="5mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
@@ -1353,8 +1359,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="2.5mil"/>
-<param name="mlMaxStopFrame" value="2.5mil"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="0mil"/>
@@ -1479,20 +1485,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="19.685" y="1.27" size="1.27" layer="27" rot="R90" display="off"/>
 </element>
 <element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="JP2" x="3.81" y="5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="1.9812" y="1.1938" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="1.9812" y="1.1938" size="1.27" layer="25" ratio="10" rot="R90" display="off"/>
 <attribute name="POPULARITY" value="92" x="6.35" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="6.985" y="1.27" size="1.27" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="1.905" y="1.27" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="1k" x="3.81" y="15.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="2.5146" y="12.7" size="0.9906" layer="25" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="48" x="24.13" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="24.13" y="33.02" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="2.5146" y="16.2814" size="0.9906" layer="21" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="2.5146" y="16.2814" size="0.9906" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" package="TO92" package3d_urn="urn:adsk.eagle:package:28523/2" value="2N3904" x="11.43" y="15.24" smashed="yes">
 <attribute name="NAME" x="8.255" y="18.415" size="1.27" layer="25" ratio="10"/>
 <attribute name="POPULARITY" value="27" x="34.29" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="8.255" y="11.43" size="1.27" layer="21" ratio="10"/>
+<attribute name="VALUE" x="8.255" y="11.43" size="1.27" layer="27" ratio="10"/>
 </element>
 </elements>
 <signals>

@@ -82,7 +82,7 @@
 <text x="5.08" y="7.62" size="1.016" layer="21" align="center-left"> JB</text>
 <text x="17.78" y="5.08" size="1.016" layer="21" align="center-left"> SPK+</text>
 <text x="17.78" y="2.54" size="1.016" layer="21" align="center-left"> SPK-</text>
-<text x="11.43" y="11.43" size="1.016" layer="21" rot="MR180" align="center">ACTVIE BUZZER CIRCUIT
+<text x="11.43" y="11.43" size="1.016" layer="22" rot="MR180" align="center">ACTVIE BUZZER CIRCUIT
 FOR GOTEK FLOPPY
 USING FLASHFLOPPY
 
