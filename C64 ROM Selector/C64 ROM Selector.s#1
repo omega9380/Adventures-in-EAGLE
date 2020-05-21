@@ -5333,8 +5333,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="ARDUINO" library="myparts" deviceset="ADR_PROMINI" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="460"/>
-<part name="IC1" library="myparts" deviceset="2364" device="" package3d_urn="urn:adsk.eagle:package:19955/2" value="2364"/>
-<part name="IC2" library="myparts" deviceset="27256" device="" package3d_urn="urn:adsk.eagle:package:31069/1" value="27256"/>
+<part name="IC1" library="myparts" deviceset="2364" device="" package3d_urn="urn:adsk.eagle:package:19955/2" value="C64 ROM SOCKET"/>
+<part name="IC2" library="myparts" deviceset="27256" device="" package3d_urn="urn:adsk.eagle:package:31069/1" value="27256 EEPROM"/>
 </parts>
 <sheets>
 <sheet>
