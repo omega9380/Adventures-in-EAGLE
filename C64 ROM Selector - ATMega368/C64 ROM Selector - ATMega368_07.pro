@@ -19,7 +19,7 @@ max. Level        :         0         0         0         0         0
 max. Total        :         0         0         0         0         0
 
 Routed            :        37        37        37        37        37
-Vias              :        37        13         6         5         4
+Vias              :        29        10         7         6         5
 Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 
