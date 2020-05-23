@@ -169,12 +169,12 @@
 <text x="11.43" y="11.43" size="1.016" layer="25">1</text>
 <text x="21.59" y="11.43" size="1.016" layer="25">1</text>
 <text x="22.86" y="8.89" size="0.8128" layer="25" align="top-left">J1 - FTDI
-1 - GND
-2 - CTS
-3 - VCC
-4 - TXO
-5 - RXI
-6 - DTR</text>
+1 - DTR
+2 - RXI
+3 - TXO
+4 - VCC
+5 - CTS
+6 - GND</text>
 <text x="11.43" y="8.89" size="0.8128" layer="25" align="top-left">J2 - C64 CONNECT
 1 - RESTORE
 2 - RESET
