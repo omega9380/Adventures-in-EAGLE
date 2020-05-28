@@ -1763,7 +1763,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 <wire x1="5.08" y1="19.05" x2="5.08" y2="3.81" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PIN1">
+<signal name="RESTORE">
 <contactref element="J1" pad="1"/>
 <contactref element="U1" pad="5"/>
 <wire x1="53.6448" y1="8.382" x2="49.53" y2="8.382" width="0.1524" layer="1"/>
@@ -1771,7 +1771,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="49.53" y1="8.382" x2="49.447" y2="8.255" width="0.1524" layer="1"/>
 <wire x1="55.7784" y1="6.2484" x2="55.88" y2="6.35" width="0.1524" layer="1"/>
 </signal>
-<signal name="PIN4">
+<signal name="PLED">
 <contactref element="R2" pad="2"/>
 <contactref element="U1" pad="2"/>
 <wire x1="40.9956" y1="10.8204" x2="41.91" y2="10.8204" width="0.1524" layer="1"/>
@@ -1781,7 +1781,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="41.91" y1="16.51" x2="41.91" y2="15.5448" width="0.1524" layer="1"/>
 <wire x1="41.91" y1="10.8204" x2="42.037" y2="10.795" width="0.1524" layer="1"/>
 </signal>
-<signal name="PIN2">
+<signal name="RESET">
 <contactref element="J1" pad="2"/>
 <contactref element="U1" pad="6"/>
 <wire x1="54.4068" y1="9.6012" x2="49.53" y2="9.6012" width="0.1524" layer="1"/>
@@ -1790,7 +1790,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="49.53" y1="9.6012" x2="49.447" y2="9.525" width="0.1524" layer="1"/>
 <wire x1="55.7784" y1="8.9916" x2="55.88" y2="8.89" width="0.1524" layer="1"/>
 </signal>
-<signal name="PIN3">
+<signal name="EXROM">
 <contactref element="J1" pad="3"/>
 <contactref element="U1" pad="7"/>
 <wire x1="54.2544" y1="10.8204" x2="49.53" y2="10.8204" width="0.1524" layer="1"/>

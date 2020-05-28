@@ -7612,9 +7612,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="121.92" y="51.435" size="1.778" layer="95"/>
 <attribute name="VALUE" x="121.92" y="-2.54" size="1.778" layer="96"/>
 </instance>
-<instance part="U1" gate="U1" x="71.12" y="81.28" smashed="yes" grouprefs="ATTINY85">
-<attribute name="VALUE" x="63.5" y="68.58" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="63.5" y="89.408" size="1.778" layer="95" font="vector"/>
+<instance part="U1" gate="U1" x="73.66" y="81.28" smashed="yes" grouprefs="ATTINY85">
+<attribute name="VALUE" x="66.04" y="68.58" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="66.04" y="89.408" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -7643,8 +7643,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="GND"/>
-<wire x1="60.96" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91" grouprefs="ATTINY85"/>
-<label x="50.8" y="73.66" size="1.778" layer="95" grouprefs="ATTINY85"/>
+<wire x1="63.5" y1="73.66" x2="50.8" y2="73.66" width="0.1524" layer="91" grouprefs="ATTINY85"/>
+<label x="53.34" y="73.66" size="1.778" layer="95" grouprefs="ATTINY85"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -7665,11 +7665,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="VCC"/>
-<wire x1="60.96" y1="86.36" x2="48.26" y2="86.36" width="0.1524" layer="91" grouprefs="ATTINY85"/>
-<label x="50.8" y="86.36" size="1.778" layer="95" grouprefs="ATTINY85"/>
+<wire x1="63.5" y1="86.36" x2="50.8" y2="86.36" width="0.1524" layer="91" grouprefs="ATTINY85"/>
+<label x="53.34" y="86.36" size="1.778" layer="95" grouprefs="ATTINY85"/>
 </segment>
 </net>
-<net name="RESTORE" class="0">
+<net name="PIN1" class="0">
 <segment>
 <pinref part="J1" gate="J$1" pin="1"/>
 <wire x1="10.16" y1="43.18" x2="27.94" y2="43.18" width="0.1524" layer="91" grouprefs="CONNECTORS1"/>
@@ -7677,11 +7677,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="PB0"/>
-<wire x1="81.28" y1="73.66" x2="96.52" y2="73.66" width="0.1524" layer="91" grouprefs="ATTINY85"/>
+<wire x1="83.82" y1="73.66" x2="96.52" y2="73.66" width="0.1524" layer="91" grouprefs="ATTINY85"/>
 <label x="93.98" y="73.66" size="1.778" layer="95" align="bottom-right" grouprefs="ATTINY85"/>
 </segment>
 </net>
-<net name="PLED" class="0">
+<net name="PIN4" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="30.48" x2="40.64" y2="30.48" width="0.1524" layer="91" grouprefs="CONNECTORS1"/>
@@ -7689,11 +7689,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="PB3"/>
-<wire x1="81.28" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91" grouprefs="ATTINY85"/>
+<wire x1="83.82" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91" grouprefs="ATTINY85"/>
 <label x="93.98" y="81.28" size="1.778" layer="95" align="bottom-right" grouprefs="ATTINY85"/>
 </segment>
 </net>
-<net name="RESET" class="0">
+<net name="PIN2" class="0">
 <segment>
 <pinref part="J1" gate="J$1" pin="2"/>
 <wire x1="10.16" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91" grouprefs="CONNECTORS1"/>
@@ -7701,11 +7701,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="PB1"/>
-<wire x1="81.28" y1="76.2" x2="96.52" y2="76.2" width="0.1524" layer="91" grouprefs="ATTINY85"/>
+<wire x1="83.82" y1="76.2" x2="96.52" y2="76.2" width="0.1524" layer="91" grouprefs="ATTINY85"/>
 <label x="93.98" y="76.2" size="1.778" layer="95" align="bottom-right" grouprefs="ATTINY85"/>
 </segment>
 </net>
-<net name="EXROM" class="0">
+<net name="PIN3" class="0">
 <segment>
 <pinref part="J1" gate="J$1" pin="3"/>
 <wire x1="10.16" y1="48.26" x2="27.94" y2="48.26" width="0.1524" layer="91" grouprefs="CONNECTORS1"/>
@@ -7713,7 +7713,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="PB2"/>
-<wire x1="81.28" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91" grouprefs="ATTINY85"/>
+<wire x1="83.82" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91" grouprefs="ATTINY85"/>
 <label x="93.98" y="78.74" size="1.778" layer="95" align="bottom-right" grouprefs="ATTINY85"/>
 </segment>
 </net>
@@ -7997,7 +7997,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="PB4"/>
-<wire x1="81.28" y1="83.82" x2="96.52" y2="83.82" width="0.1524" layer="91" grouprefs="ATTINY85"/>
+<wire x1="83.82" y1="83.82" x2="96.52" y2="83.82" width="0.1524" layer="91" grouprefs="ATTINY85"/>
 <label x="93.98" y="83.82" size="1.778" layer="95" align="bottom-right" grouprefs="ATTINY85"/>
 </segment>
 </net>
@@ -8009,7 +8009,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="U1" gate="U1" pin="PB5"/>
-<wire x1="81.28" y1="86.36" x2="96.52" y2="86.36" width="0.1524" layer="91" grouprefs="ATTINY85"/>
+<wire x1="83.82" y1="86.36" x2="96.52" y2="86.36" width="0.1524" layer="91" grouprefs="ATTINY85"/>
 <label x="93.98" y="86.36" size="1.778" layer="95" align="bottom-right" grouprefs="ATTINY85"/>
 </segment>
 </net>

@@ -1726,19 +1726,40 @@ design rules under a new name.</description>
 <contactref element="IC2" pad="14"/>
 <contactref element="IC2" pad="20"/>
 <contactref element="U1" pad="4"/>
-<wire x1="55.88" y1="17.78" x2="39.37" y2="29.21" width="0" layer="19" extent="1-1"/>
+<polygon width="0.1524" layer="16">
+<vertex x="-1.27" y="-1.27"/>
+<vertex x="60.96" y="-1.27"/>
+<vertex x="60.96" y="25.4"/>
+<vertex x="43.18" y="25.4"/>
+<vertex x="43.18" y="62.23"/>
+<vertex x="20.32" y="62.23"/>
+<vertex x="20.32" y="25.4"/>
+<vertex x="-1.27" y="25.4"/>
+</polygon>
 <wire x1="42.037" y1="8.255" x2="55.88" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="3.81" x2="42.037" y2="8.255" width="0" layer="19" extent="1-1"/>
 <wire x1="25.4" y1="19.05" x2="42.037" y2="8.255" width="0" layer="19" extent="1-1"/>
-<wire x1="38.1" y1="3.81" x2="25.4" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="39.37" y1="29.21" x2="25.4" y2="19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="IC1" pad="24"/>
 <contactref element="IC2" pad="28"/>
 <contactref element="IC2" pad="1"/>
 <contactref element="U1" pad="8"/>
-<wire x1="49.447" y1="12.065" x2="24.13" y2="57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="19.05" x2="49.447" y2="12.065" width="0" layer="19" extent="1-1"/>
+<polygon width="0.1524" layer="1">
+<vertex x="0" y="-1.27"/>
+<vertex x="60.96" y="-1.27"/>
+<vertex x="60.96" y="25.4"/>
+<vertex x="43.18" y="25.4"/>
+<vertex x="43.18" y="62.23"/>
+<vertex x="20.32" y="62.23"/>
+<vertex x="20.32" y="25.4"/>
+<vertex x="-1.27" y="25.4"/>
+<vertex x="-1.27" y="-1.27"/>
+</polygon>
+<wire x1="5.08" y1="19.05" x2="24.13" y2="57.15" width="0" layer="19" extent="1-1"/>
 <wire x1="5.08" y1="3.81" x2="5.08" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="49.447" y1="12.065" x2="5.08" y2="19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIN1">
 <contactref element="J1" pad="1"/>
@@ -1748,7 +1769,7 @@ design rules under a new name.</description>
 <signal name="PIN4">
 <contactref element="R2" pad="2"/>
 <contactref element="U1" pad="2"/>
-<wire x1="41.91" y1="16.51" x2="42.037" y2="10.795" width="0" layer="19" extent="1-1"/>
+<wire x1="42.037" y1="10.795" x2="41.91" y2="16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PIN2">
 <contactref element="J1" pad="2"/>
@@ -1838,7 +1859,7 @@ design rules under a new name.</description>
 <signal name="D3">
 <contactref element="IC1" pad="13"/>
 <contactref element="IC2" pad="15"/>
-<wire x1="38.1" y1="19.05" x2="24.13" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="29.21" x2="38.1" y2="19.05" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D4">
 <contactref element="IC1" pad="14"/>
