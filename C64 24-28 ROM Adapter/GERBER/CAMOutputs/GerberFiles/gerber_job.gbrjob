@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-07-29T21:10:59Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "C64 24-28 ROM Adapter"
+        },
+        "Owner": "Jeremy Kellogg <omega9380@gmail.com>",
+        "Size": {
+            "X": 38.08,
+            "Y": 22.53
+        }
+    }
+}

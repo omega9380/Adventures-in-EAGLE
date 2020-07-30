@@ -78,9 +78,9 @@
 <wire x1="38.08" y1="0" x2="38.08" y2="21.26" width="0" layer="20"/>
 <wire x1="38.08" y1="21.26" x2="0" y2="21.26" width="0" layer="20"/>
 <wire x1="0" y1="21.26" x2="0" y2="0" width="0" layer="20"/>
-<text x="19.05" y="10.16" size="1.016" layer="16" rot="MR0" align="center">C64 EEPROM ADAPTER
-DESIGNED BY J KELLOGG
-BASED ON INSTRUCTIONS BY PETER SCHEPERS
+<text x="18.542" y="15.875" size="1.016" layer="22" rot="MR0" align="center">C64 EEPROM ADAPTER
+DESIGNED BY J KELLOGG</text>
+<text x="18.923" y="5.588" size="1.016" layer="22" rot="MR0" align="center">BASED ON INSTRUCTIONS BY PETER SCHEPERS
 https://ist.uwaterloo.ca/~schepers/personal.html</text>
 </plain>
 <libraries>
@@ -366,7 +366,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </autorouter>
 <elements>
 <element name="24-PIN" library="ic-package" library_urn="urn:adsk.eagle:library:239" package="DIL24-4" package3d_urn="urn:adsk.eagle:package:14447/2" value="EEPROM" x="19.05" y="13.97" smashed="yes">
-<attribute name="NAME" x="12.2936" y="16.51" size="1.778" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="0" x="48.26" y="-7.62" size="1.778" layer="27" display="off"/>
 </element>
 <element name="28-PIN" library="ic-package" library_urn="urn:adsk.eagle:library:239" package="DIL28-4" package3d_urn="urn:adsk.eagle:package:18077/2" value="EEPROM" x="19.05" y="7.62" smashed="yes">

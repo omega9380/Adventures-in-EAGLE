@@ -78,6 +78,10 @@
 <wire x1="38.08" y1="0" x2="38.08" y2="21.26" width="0" layer="20"/>
 <wire x1="38.08" y1="21.26" x2="0" y2="21.26" width="0" layer="20"/>
 <wire x1="0" y1="21.26" x2="0" y2="0" width="0" layer="20"/>
+<text x="19.05" y="16.51" size="1.016" layer="22" rot="MR0" align="center">C64 EEPROM ADAPTER
+DESIGNED BY J KELLOGG</text>
+<text x="19.05" y="5.08" size="1.016" layer="22" rot="MR0" align="center">BASED ON INSTRUCTIONS BY PETER SCHEPERS
+https://ist.uwaterloo.ca/~schepers/personal.html</text>
 </plain>
 <libraries>
 <library name="ic-package" urn="urn:adsk.eagle:library:239">
@@ -447,6 +451,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="38.1" y="21.59"/>
 <vertex x="0" y="21.59"/>
 </polygon>
+<wire x1="35.56" y1="6.35" x2="33.02" y2="8.89" width="0.1524" layer="1"/>
+<wire x1="35.56" y1="2.54" x2="35.56" y2="6.35" width="0.1524" layer="1"/>
 </signal>
 <signal name="D3">
 <contactref element="24-PIN" pad="13"/>
@@ -481,10 +487,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="A11">
 <contactref element="24-PIN" pad="18"/>
 <contactref element="28-PIN" pad="23"/>
-<wire x1="16.8275" y1="11.1125" x2="15.24" y2="12.7" width="0.1524" layer="1"/>
-<wire x1="21.2725" y1="11.1125" x2="16.8275" y2="11.1125" width="0.1524" layer="1"/>
-<wire x1="21.2725" y1="18.0975" x2="21.2725" y2="11.1125" width="0.1524" layer="1"/>
-<wire x1="20.32" y1="19.05" x2="21.2725" y2="18.0975" width="0.1524" layer="1"/>
+<wire x1="17.145" y1="10.795" x2="15.24" y2="12.7" width="0.1524" layer="1"/>
+<wire x1="21.59" y1="10.795" x2="17.145" y2="10.795" width="0.1524" layer="1"/>
+<wire x1="21.59" y1="17.78" x2="21.59" y2="10.795" width="0.1524" layer="1"/>
+<wire x1="20.32" y1="19.05" x2="21.59" y2="17.78" width="0.1524" layer="1"/>
 </signal>
 <signal name="A10">
 <contactref element="24-PIN" pad="19"/>
@@ -501,12 +507,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="A12">
 <contactref element="24-PIN" pad="21"/>
 <contactref element="28-PIN" pad="2"/>
-<wire x1="4.1275" y1="3.4925" x2="5.08" y2="2.54" width="0.1524" layer="1"/>
-<wire x1="4.1275" y1="9.8425" x2="4.1275" y2="3.4925" width="0.1524" layer="1"/>
-<wire x1="5.3975" y1="11.1125" x2="4.1275" y2="9.8425" width="0.1524" layer="1"/>
-<wire x1="13.6525" y1="11.1125" x2="5.3975" y2="11.1125" width="0.1524" layer="1"/>
-<wire x1="13.6525" y1="18.0975" x2="13.6525" y2="11.1125" width="0.1524" layer="1"/>
-<wire x1="12.7" y1="19.05" x2="13.6525" y2="18.0975" width="0.1524" layer="1"/>
+<wire x1="3.81" y1="3.81" x2="5.08" y2="2.54" width="0.1524" layer="1"/>
+<wire x1="3.81" y1="9.525" x2="3.81" y2="3.81" width="0.1524" layer="1"/>
+<wire x1="5.08" y1="10.795" x2="3.81" y2="9.525" width="0.1524" layer="1"/>
+<wire x1="13.97" y1="10.795" x2="5.08" y2="10.795" width="0.1524" layer="1"/>
+<wire x1="13.97" y1="17.78" x2="13.97" y2="10.795" width="0.1524" layer="1"/>
+<wire x1="12.7" y1="19.05" x2="13.97" y2="17.78" width="0.1524" layer="1"/>
 </signal>
 <signal name="A9">
 <contactref element="24-PIN" pad="22"/>
@@ -528,8 +534,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="28-PIN" pad="1"/>
 <wire x1="2.54" y1="12.7" x2="2.54" y2="2.54" width="0.1524" layer="1"/>
 <wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.1524" layer="1"/>
-<wire x1="5.08" y1="12.7" x2="7.62" y2="12.7" width="0.1524" layer="1"/>
 <wire x1="5.08" y1="12.7" x2="5.08" y2="19.05" width="0.1524" layer="1"/>
+<wire x1="5.08" y1="12.7" x2="7.62" y2="12.7" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -542,6 +548,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

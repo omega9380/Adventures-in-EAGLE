@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/omega/OneDrive/Documents2/EAGLE/projects/C64 24-28 ROM Adapter/untitled.brd
+Job           : C:/Users/jkellogg/OneDrive/Documents2/EAGLE/projects/Adventures-in-EAGLE/C64 24-28 ROM Adapter/C64 24-28 ROM Adapter.brd
 
-Start at      : 12:37:15 (5/12/2020)
-End at        : 12:37:19 (5/12/2020)
-Elapsed time  : 00:00:00
+Start at      : 17:04:34 (7/29/2020)
+End at        : 17:04:49 (7/29/2020)
+Elapsed time  : 00:00:11
 
-Signals       :    24   RoutingGrid: 25 mil  Layers: 2
-Connections   :    28   predefined:  1 ( 0 Vias )
+Signals       :    24   RoutingGrid: 6 mil  Layers: 2
+Connections   :    28   predefined:  2 ( 0 Vias )
 
-Router memory :   11424
+Router memory :   166400
 
-Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00
-Number of Ripups  :         0         0         0         0         0         0
-max. Level        :         0         0         0         0         0         0
-max. Total        :         0         0         0         0         0         0
+Time per pass     :  00:00:08  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00
+Number of Ripups  :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+max. Level        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+max. Total        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
 
-Routed            :         2        27        27        27        27        27
-Vias              :         0         5         0         0         0         0
-Resolution        :    10.7 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :        15        26        26        26        26        26        26        26        26        26        26        26        26        26
+Vias              :         0         7        17        14        14        14        14        14        12        11        11        11        11        11
+Resolution        :    60.7 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 100.0% finished
+Final             : 92.9% finished. Polygons may have fallen apart.
