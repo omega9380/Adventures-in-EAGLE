@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="3.95" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.49375" altunitdist="mm" altunit="mm"/>
+<grid distance="0.49375" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.49375" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -161,7 +161,6 @@
 </layers>
 <board>
 <plain>
-<wire x1="2.9625" y1="13.825" x2="-12.34375" y2="13.825" width="0.1524" layer="20"/>
 <wire x1="-12.34375" y1="13.825" x2="-12.8375" y2="13.33125" width="0.1524" layer="20"/>
 <wire x1="-12.8375" y1="13.33125" x2="-12.8375" y2="2.46875" width="0.1524" layer="20"/>
 <wire x1="-12.8375" y1="2.46875" x2="-13.33125" y2="1.975" width="0.1524" layer="20"/>
@@ -172,22 +171,16 @@
 <wire x1="15.8" y1="1.48125" x2="15.8" y2="-11.35625" width="0.1524" layer="20"/>
 <wire x1="15.8" y1="-11.35625" x2="15.30625" y2="-11.85" width="0.1524" layer="20"/>
 <wire x1="15.30625" y1="-11.85" x2="-15.30625" y2="-11.85" width="0.1524" layer="20"/>
-<wire x1="2.9625" y1="13.825" x2="3.45625" y2="13.33125" width="0.1524" layer="20"/>
-<wire x1="3.45625" y1="13.33125" x2="3.45625" y2="2.46875" width="0.1524" layer="20"/>
-<wire x1="3.45625" y1="2.46875" x2="3.95" y2="1.975" width="0.1524" layer="20"/>
-<wire x1="3.95" y1="1.975" x2="4.44375" y2="2.46875" width="0.1524" layer="20"/>
-<wire x1="4.44375" y1="2.46875" x2="4.44375" y2="13.33125" width="0.1524" layer="20"/>
 <wire x1="13.33125" y1="1.975" x2="15.30625" y2="1.975" width="0.1524" layer="20"/>
 <wire x1="15.30625" y1="1.975" x2="15.8" y2="1.48125" width="0.1524" layer="20"/>
+<wire x1="12.34375" y1="13.825" x2="12.8375" y2="13.33125" width="0.1524" layer="20"/>
 <wire x1="12.8375" y1="13.33125" x2="12.8375" y2="2.46875" width="0.1524" layer="20"/>
 <wire x1="12.8375" y1="2.46875" x2="13.33125" y2="1.975" width="0.1524" layer="20"/>
-<wire x1="4.9375" y1="13.825" x2="12.34375" y2="13.825" width="0.1524" layer="20"/>
-<wire x1="12.34375" y1="13.825" x2="12.8375" y2="13.33125" width="0.1524" layer="20"/>
-<wire x1="4.44375" y1="13.33125" x2="4.9375" y2="13.825" width="0.1524" layer="20"/>
 <hole x="-14.31875" y="-10.36875" drill="1"/>
 <hole x="-14.31875" y="0.49375" drill="1"/>
 <hole x="14.31875" y="0.49375" drill="1"/>
 <hole x="14.31875" y="-10.36875" drill="1"/>
+<wire x1="-12.34375" y1="13.825" x2="12.34375" y2="13.825" width="0.1524" layer="20"/>
 </plain>
 <libraries>
 <library name="con-molex" urn="urn:adsk.eagle:library:165">

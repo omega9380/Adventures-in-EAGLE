@@ -73,18 +73,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="-1.27" y1="0" x2="59.69" y2="0" width="0" layer="20"/>
-<wire x1="59.69" y1="0" x2="60.94" y2="1.25" width="0" layer="20" curve="90"/>
-<wire x1="60.94" y1="1.25" x2="60.94" y2="15.24" width="0" layer="20"/>
-<wire x1="60.94" y1="15.24" x2="60" y2="16.18" width="0" layer="20" curve="90"/>
-<wire x1="60" y1="16.18" x2="-1.6" y2="16.18" width="0" layer="20"/>
-<wire x1="-1.6" y1="16.18" x2="-2.54" y2="15.24" width="0" layer="20" curve="90"/>
-<wire x1="-2.54" y1="15.24" x2="-2.54" y2="1.27" width="0" layer="20"/>
-<wire x1="-2.54" y1="1.27" x2="-1.27" y2="0" width="0" layer="20" curve="90"/>
-<hole x="-1.27" y="13.97" drill="0.9"/>
-<hole x="-1.27" y="2.54" drill="0.9"/>
-<hole x="59.69" y="2.54" drill="0.9"/>
-<hole x="59.69" y="13.97" drill="0.9"/>
+<wire x1="60.94" y1="16.18" x2="-2.54" y2="16.18" width="0" layer="20"/>
+<wire x1="-2.54" y1="16.18" x2="-2.54" y2="0" width="0" layer="20"/>
+<wire x1="-2.54" y1="0" x2="60.94" y2="0" width="0" layer="20"/>
+<wire x1="60.94" y1="0" x2="60.94" y2="16.18" width="0" layer="20"/>
+<hole x="-1.27" y="14.7955" drill="0.9"/>
+<hole x="-1.27" y="1.27" drill="0.9"/>
+<hole x="59.69" y="14.7955" drill="0.9"/>
+<hole x="59.69" y="1.27" drill="0.9"/>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
